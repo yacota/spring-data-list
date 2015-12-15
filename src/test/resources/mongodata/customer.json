@@ -1,0 +1,7 @@
+[{
+    "_id":{"$numberLong":"1"},
+    "firstName": "jordi",
+    "lastName": "llach",
+    "lazyOrders":[{"_CONTENT":{"$ref":"order","$id":{"$numberLong":"1"}}},{"_CONTENT":{"$ref":"order","$id":{"$numberLong":"2"}}}],
+    "orders":[{"$ref":"order","$id":{"$numberLong":"1"}},{"$ref":"order","$id":{"$numberLong":"2"}}]
+}]

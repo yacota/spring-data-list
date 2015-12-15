@@ -1,0 +1,10 @@
+[{
+    "_id":{"$numberLong":"1"},
+    "orderDate": {"$date":"2014-07-25T14:48:08.000+0200"},
+    "items":[{"_CONTENT":{"$ref":"item","$id":{"$numberLong":"1"}}},{"_CONTENT":{"$ref":"item","$id":{"$numberLong":"2"}}}]
+},
+{
+    "_id":{"$numberLong":"2"},
+    "orderDate": {"$date":"2015-07-25T14:48:08.000+0200"},
+    "items":[{"_CONTENT":{"$ref":"item","$id":{"$numberLong":"3"}}},{"_CONTENT":{"$ref":"item","$id":{"$numberLong":"4"}}}]
+}]
